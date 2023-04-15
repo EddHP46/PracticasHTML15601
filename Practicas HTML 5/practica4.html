@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calendario</title> 
+<link rel="stylesheet" type="text/css" href="./css/estilo4.css">
+</head>
+
+<body>
+    <div></div>
+    <h1>Calendario</h1> 
+    <form>
+        <label for="Mes">Mes</label>
+        <select>
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>
+          </select>
+        <label for="Anio">Año:</label>
+        <input type="number" id="Anio" name="anio" min="1900"><br>
+        <button type="button" onclick="Calendario()">Generar Calendario</button>  
+        <p id="calendario"></p>
+    </form>
+    <script type="text/javascript" src="/js/Calendario.js"></script>
+</body>
+</html>

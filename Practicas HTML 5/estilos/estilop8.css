@@ -1,0 +1,80 @@
+body{
+  
+  background-color: #242f36;
+}
+/* alinear texto(titulo)*/
+h1 {
+  text-align: center;
+}
+/* centrar todo*/
+/*.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #f3efef;
+  padding: 10px;
+}*/
+
+
+#reproductor {
+  background-color: #333;
+  color: #ad9797;
+  padding: 300px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#controles button {
+  background-color: transparent;
+  border: none;
+  color: #3a2323;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#controles button:hover {
+  color: #848485;
+}
+
+#progressbar {
+  position: relative;
+  width: 400px;
+  height: 8px;
+  padding: 2px;
+  background: #EEEEEE;
+  border: solid 1px #CCCCCC;
+  margin-top: -45px;
+  clear: both;
+  z-index: 99999;
+  max-width: 100%;
+}
+#progreso {
+position: absolute;
+width: 0px;
+height: 8px;
+background: rgb(0,0,255);
+}
+#progressbar:hover {
+cursor: pointer;
+}
+#progreso:hover {
+cursor: pointer;
+}
+
+#toggle{
+  display: none;
+}
+#label{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2em;
+  color: rebeccapurple;
+  cursor: pointer;
+}
+.oscuro{
+  background-color: #0e1214;
+  color: white;
+  transition: all 1.5s ease;
+}

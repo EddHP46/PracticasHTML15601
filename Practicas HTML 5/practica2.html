@@ -1,0 +1,31 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Media del alumno</title>
+        <link rel="stylesheet" href="estilos/estilop2.css">
+        <script src="js/MediaA.js"></script>
+    </head>
+    <body>
+        <label for="toggle" id="label"><i class="fa-solid fa-moon"></i></label>
+                <input type="checkbox" id="toggle">
+                <div class="contenedor">
+                    <h1>Media del alumno</h1>  
+                    <p>Por favor, introduce las calificaciones:</p>
+                    <form>
+                        <label for="Calif1">Calificacion 1</label>
+                        <input id="num1"><br>
+                        <label for="Calif2">Calificacion 2</label>
+                        <input id="num2"><br>
+                        <label for="Calif3">Calificacion 3</label>
+                        <input id="num3"><br>
+                        <button type="button" onclick="MediaA()">Comprobar</button>  
+                        <p id="Resultado"></p>
+                    </form>
+                </div>
+                <script src="js/app.js"></script>
+    </body>
+</html>

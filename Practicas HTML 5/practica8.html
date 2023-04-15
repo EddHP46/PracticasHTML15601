@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reproductor de MP3</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="estilos/estilop8.css">
+</head>
+<body>
+	 
+	<label for="toggle" id="label"><i class="fa-solid fa-moon"></i></label>
+                <input type="checkbox" id="toggle">
+                <div class="contenedor">
+					<div class="center">
+		
+						<h1>Reproductor de MP3</h1><br>
+						<center>
+						<audio id="audioPlayer" src="audios/crash-twinsanity-soundtrack-n-sanity-island.mp3"></audio>
+						<br>
+						<div id="progressbar"><div id="progreso"></div></div>
+						<br>
+						<button id="playButton"><img src="imagenes/reproducir.png" alt="FES" width="30" height="30" /></button>
+						<button id="pauseButton"><img src="imagenes/Pausar.png" alt="FES" width="30" height="30" /></button>
+						<input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+						</center>
+				</div>
+                </div>
+	<script src="js/ReproductorMP3.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
